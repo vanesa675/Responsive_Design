@@ -1,0 +1,37 @@
+header,
+.page,
+footer {
+  min-height: 200px;
+  background: rgb(85, 85, 85);
+}
+
+.menu {
+  min-height: 200px;
+  display: inline-block;
+  background: rgb(60, 0, 255);
+  width: 30%;
+}
+
+.content {
+  min-height: 200px;
+  display: inline-block;
+  background: lightgrey;
+  width: 70%;
+}
+.page {
+    display: flex;
+  }
+
+  @media (max-width: 600px) {
+    .menu {
+      background: rgb(255, 0, 0);
+      display: none
+    ;
+      width: 100%;
+    }
+}
+
+    .content{
+        background-color: aqua;
+        width: 100%;
+    }
